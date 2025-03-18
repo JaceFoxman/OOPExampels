@@ -2,8 +2,8 @@
     Inherits Animal
 
     Sub New()
-        Me.movement = ""
-        Me.skinType = ""
-        Me.speak = ""
+        Me.movement = "swim"
+        Me.skinType = "scaly"
+        Me.speak = "glub glub"
     End Sub
 End Class

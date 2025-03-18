@@ -9,6 +9,8 @@
         Dim bob As New Mammal
         Dim lucky As New Dog
         Dim pepe As New Dog
+        Dim goldee As New Fish
+        Dim sparrow As New Bird
 
         jimmy.Move()
         Console.WriteLine(jimmy.skinType)
@@ -16,13 +18,20 @@
         Console.WriteLine(bob.skinType)
         lucky.Move()
         Console.WriteLine(lucky.skinType)
-        lucky.speak()
+        Console.WriteLine(lucky.speak)
 
         pepe.movement = "shiver"
         pepe.skinType = "hairless rat"
-        pepe.speak()
+        Console.WriteLine(pepe.speak)
         pepe.Move()
 
+        goldee.Move()
+        Console.WriteLine(goldee.skinType)
+        Console.WriteLine(goldee.speak)
+
+        sparrow.Move()
+        Console.WriteLine(sparrow.skinType)
+        Console.WriteLine(sparrow.speak)
     End Sub
 
 
